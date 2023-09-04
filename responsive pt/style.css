@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+nav{
+    padding: 1rem;
+    background:#ff821c ;
+}
+.logo a{
+    font-size: 40px;
+    color: #fff;
+    text-decoration: none;
+}
+.nav-con{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav ul li{
+    margin: 0 1rem;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.hero{
+    background-color: #f0f0f0;
+}
+.hero-con{
+    display: flex;
+    align-items: center;
+}
+.hero-info{
+    padding: 2rem;
+    width: 100%;
+}
+.hero-info h3{
+    font-size: 2rem;
+}
+.hero-info p{
+    margin: 1rem 0;
+}
+.hero-btn{
+    margin-top: 2rem;
+    display: inline-block;
+    background: rgb(255, 145, 0);
+    color: #fff;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.hero-img img{
+    padding: 2rem;
+    width: 100%;
+    border-radius: 40px;
+}
+.blog-title{
+    padding: 2rem 0;
+}
+.blog-title h3{
+    font-size: 30px;
+}
+.blog-con{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+.blog-con .blog-items img{
+    width: 100%
+}
+.blog-items h4{
+    margin-top: 1rem;
+}
+.blog-items p{
+    margin: 1rem 0;
+}
+.blog-items a{
+    display: inline-block;
+    padding: .5rem 2rem;
+    color: #fff;
+    background: #ff821c;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.footer-top{
+    padding: 3rem;
+    margin-top: 3rem;
+    background: #333;
+    color: #fff;
+}
+
+.footer-top-con{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+.footer-top-item-con{
+    display: flex;
+    margin: 1rem 0;
+}
+.footer-top-item-con .date{
+    background: #f0f0f0;
+    color: #333;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.footer-top-item:nth-child(2) h4,
+.footer-top-item:nth-child(3) h4{
+    margin-bottom: 1rem;
+}
+.footer-top-item:nth-child(3) i{
+    margin-top: .5rem;
+    width: 1.5rem;
+}
+
+.footer-bottom{
+    background: #f0f0f0;
+    color: #333;
+    padding: 1rem 0;
+    text-align: center;
+}

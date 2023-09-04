@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+}
+body{
+  width: 100%;
+  min-height: 100vh; /* Set the height of the half background */
+  background: linear-gradient(-240deg, rgb(254,247,231,255) 0%, rgb(254,247,231,255) 65%,rgb(247,218,118,255) 35%, rgb(247,218,118,255) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+a{
+    text-decoration: none;
+}
+header{
+    padding: 2rem 5rem;
+}
+.logo img{
+    width: 80px;
+}
+.nav-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.navbar-r{
+    display: flex;
+    align-items: center;
+
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  padding-right: 12rem;
+}
+.navbar li{
+    list-style: none;
+    margin-right: 2rem;
+}
+.navbar li a{
+    border: 2px solid transparent;
+    color: #222;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 800;
+    transition: .3s ease-in;
+}
+.navbar li a:hover{
+    border-bottom: 2px solid rgb(247,218,118,255);
+}
+.shop{
+    display: flex;
+    align-items: center;
+}
+.shop i{
+    padding: 1rem;
+    border-radius: 50%;
+    background: #000;
+    color: #fff;
+}
+
+.hero-con{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+.hero-con-info{
+    margin: auto auto auto 20rem;   
+}
+.hero-con-info h1{
+    font-size: 150px;
+    font-weight: 500;
+    -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+    -webkit-text-stroke: .5mm #283722;
+    line-height: .9;
+}
+.hero-con-info h4{
+    font-size: 100px;
+    color: #283722;
+   letter-spacing: .5rem;
+   
+}
+.hero-con-info p{
+    color: #6f7764;
+    font-size: 16px;
+    margin-bottom: 3rem;
+}
+.hero-btn i{
+    width: 1.5rem;
+}
+.hero-btn a{
+    padding: 1rem .5rem;
+    width: 200px;
+    background: #47c65e;
+    border-radius: 30px;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    transition: .55s ease;
+}
+.hero-btn a:hover{
+    transform: translateX(10%);
+}
+
+.icons {
+    position: absolute;
+    top: 80%; /* Align vertically */
+    right: 0; /* Adjusted to be at the right side */
+    transform: translateY(-50%);
+    padding: 0 5%;
+}
+
+.icons i {
+    display: block;
+    margin: 14px 0;
+    font-size: 18px;
+    color: #000;
+    transition: all 0.5s ease;
+}
+.icons i:hover{
+    color: #47c65e;
+    transform: translateX(-50%);
+}
+.foot{
+    position: absolute;
+    top: 95%;
+    right: 0;
+    padding: 0 5%;
+}
+.foot p{
+    font-size: 14px;
+    font-weight: 400;
+}
